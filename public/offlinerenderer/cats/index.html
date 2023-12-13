@@ -2,20 +2,21 @@
 <html lang="en-us" class="dark h-full"><head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>Gallery</title>
-  <link rel="canonical" href="https://kurumikakako.github.io/" />
+  <title>Cats – Gallery</title>
+  <link rel="canonical" href="https://kurumikakako.github.io/offlinerenderer/cats/" />
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
   <link rel="icon" type="image/png" href="/images/favicon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
   <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2"  crossorigin="anonymous" integrity="sha256-ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A=" />
-  <meta name="description" content="An example site for hugo-theme-gallery. Images from Unsplash." />
+  <meta name="description" content="Example site for hugo-theme-gallery" />
   <meta name="generator" content="Hugo 0.120.4">
   
-  <link rel="alternate" type="application/rss+xml" href="https://kurumikakako.github.io/index.xml" title="Gallery" />
-  <meta property="og:title" content="My Gallery" />
-<meta property="og:description" content="An example site for hugo-theme-gallery. Images from Unsplash." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://kurumikakako.github.io/" /><meta property="og:site_name" content="My Gallery" />
+  <meta property="og:title" content="Cats" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kurumikakako.github.io/offlinerenderer/cats/" /><meta property="article:section" content="OfflineRenderer" />
+  <meta property="article:published_time" content="2023-04-01T00:00:00+02:00" />
+  <meta property="article:modified_time" content="2023-04-01T00:00:00+02:00" /><meta property="og:site_name" content="My Gallery" />
 
   
   <link rel="stylesheet" href="/css/styles.min.1d0750f0d52bbb7666497b13441704538da3938a8c21859ddaf90ec60e103897.css" />
@@ -27,9 +28,16 @@
     <div class="flex h-16 w-full justify-between">
       
       
-        <a class="inline-flex items-center py-4 text-xl font-medium dark:text-neutral-100" href="/">
-          Gallery
-        </a>
+        
+          
+        
+        
+          <a class="-ms-4 inline-flex items-center px-3 py-5 text-xl font-medium dark:text-neutral-100" href="/offlinerenderer/" title="Animals">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75" />
+            </svg>
+          </a>
+        
       
 
       <button @click="expanded = !expanded" type="button" class="group -me-4 ml-3 inline-flex items-center p-3 text-sm dark:text-neutral-100" title="Albums">
@@ -45,7 +53,7 @@
     <div x-cloak x-show="expanded" x-collapse class="w-full"><ul class="my-12 text-center text-xl font-medium text-neutral-500 dark:text-neutral-500">
   
     <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-      <a class="text-black dark:text-white block py-2 transition-colors hover:text-black dark:hover:text-neutral-200" href="/" itemprop="url">
+      <a class=" block py-2 transition-colors hover:text-black dark:hover:text-neutral-200" href="/" itemprop="url">
         <span itemprop="name">Home</span>
       </a>
     </li>
@@ -53,8 +61,10 @@
       
         
         
+          
+        
         <li itemscope itemtype="http://www.schema.org/SiteNavigationElement">
-          <a class=" block py-2 hover:text-black dark:hover:text-neutral-200" href="/offlinerenderer/" itemprop="url">
+          <a class="text-black dark:text-white block py-2 hover:text-black dark:hover:text-neutral-200" href="/offlinerenderer/" itemprop="url">
             <span itemprop="name">Animals</span>
           </a>
         </li>
@@ -92,29 +102,15 @@
 </header>
 <main class="mx-auto w-full max-w-screen-3xl grow">
   <div class="mx-auto mb-16 mt-9 max-w-screen-lg px-6 text-center">
-    <h1 class="text-3xl font-semibold md:text-4xl">Hugo Gallery</h1>
-    
-      <p class="mt-6 text-neutral-500 dark:text-neutral-400 md:text-lg">An example site for hugo-theme-gallery. Images from Unsplash.</p>
+    <h1 class="text-3xl font-semibold md:text-4xl">Cats</h1>
     
   </div>
 
-<div class="mb-12 mt-9 grid grid-cols-1 gap-6 px-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5">
-  
+<div class="mb-12 mt-9 sm:px-6">
+  <div class="fj-gallery" style="visibility: hidden; height: 650px;">
     
     
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
+  </div>
 </div>
 
     </main><footer class="mx-auto mb-10 mt-4 flex max-w-screen-3xl flex-none flex-wrap justify-center px-6 text-center text-sm text-neutral-600 dark:text-neutral-400">
